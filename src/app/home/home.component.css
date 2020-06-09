@@ -1,0 +1,92 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Avtar{
+    height: 190px;
+    width: 250px;
+
+}
+
+.imgdiv{
+    padding-top: 5%;
+    /* padding-bottom: 1%; */
+}
+
+.mainhome{
+    /* background-color: #5070F1; */
+    /* background-image: linear-gradient(to right top, #ff2ec4, #ff4b87, #ff7761, #e49a5b, #c8b273); */
+    background-image: linear-gradient(to right top, #ff05b8, #e224cf, #bb3ae3, #854cf4, #0059ff);
+}
+
+/* .heading{
+
+} */
+
+.line1{
+    text-align: center;
+    font-size:3vw;
+    color: white;
+}
+
+.line2{
+    text-align: center;
+    font-size:2.8vw;
+    color: white;
+}
+
+@media screen and (min-width: 601px) {
+    .line1, .line2 {
+      font-size: 3vw;
+      color: white;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .line1, .line2 {
+      font-size: 4vw;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .fontawsome{
+    color: silver
+  }
+  
+  @media screen and (max-width: 600px) {
+    .fontawsome {
+      width: 80;
+      align-self: center;
+      padding-left: 50px;
+      color: white;
+    }
+}
+
+.tag{
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 1.3vw;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.tag-span{
+    font-weight: bold;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+}
+
+@media screen and (min-width: 601px) {
+    .tag {
+      font-size: 1.2vw;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tag {
+      font-size: 3.2vw;
+    }
+  }
+  

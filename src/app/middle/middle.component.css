@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Portfolio{
+    padding-top: 6%;
+}
+
+.folio-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+    /* text-align: center; */
+
+}
+  
+  @media screen and (max-width: 600px) {
+    .folio-text {
+      font-size: 6.1vw;
+
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Portfolio {
+      padding-left: 8%;
+      padding-top: 15%;
+    }
+  }
+
+  /* .card-deck{
+    height: 300;
+  } */
+
+  .card-img-top{
+      height: 178px;
+      border-radius: 800px;
+      width: 170px;
+      align-self: center;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+
+  @media screen and (min-width: 600px) {
+    .card-deck {
+      padding-left: 18%;
+    }
+  }
+
+  .card-deck{
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
+
+  .card{
+      border-radius: 10px;
+  }
+
+  .card:hover{
+    box-shadow: 0 0 5px 2px rgb(70, 70, 70);
+  }
+
+  
+  
